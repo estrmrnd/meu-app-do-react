@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from './Menu';
+import ControlledCarousel from './ControlledCarousel';
+import GridExample from './GroupExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Menu />
+    <ControlledCarousel />
+    <GridExample />
   </React.StrictMode>
 );
 
